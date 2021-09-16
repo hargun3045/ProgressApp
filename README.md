@@ -1,1 +1,2 @@
 # ProgressApp
+Today is Thurdsay
