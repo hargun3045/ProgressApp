@@ -1,2 +1,2 @@
 # ProgressApp
-Today is Thurdsay
+Today is Wednesday
