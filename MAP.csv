@@ -1,0 +1,21 @@
+Exercise,Body,LLTB,Core,PDT,GHQC
+Deadlift,Lower Body,0.3,0.1,0.0,0.6
+Lunge,Lower Body,0.0,0.0,0.0,1.0
+Squat,Lower Body,0.1,0.1,0.0,0.8
+Pushups,Upper Body,0.0,0.0,1.0,0.0
+Shoulder Press,Upper Body,0.1,0.0,0.9,0.0
+Bicep Curl,Upper Body,1.0,0.0,0.0,0.0
+Bench Press,Upper Body,0.0,0.1,0.9,0.0
+Barbell Row,Upper Body,0.9,0.0,0.0,0.1
+Barbell Overhead Press,Upper Body,0.1,0.0,0.9,0.0
+Barbell Tricep,Upper Body,0.0,0.0,1.0,0.0
+Ab Crunch,Upper Body,0.0,1.0,0.0,0.0
+Tricep Extension,Upper Body,0.0,0.0,1.0,0.0
+Front Squat,Lower Body,0.0,0.1,0.0,0.9
+Bulgarian Squat,Lower Body,0.0,0.1,0.0,0.9
+Single Arm Rows,Upper Body,0.9,0.1,0.0,0.0
+Medicine Ball Slams,Upper Body,0.333,0.333,0.333,0.0
+Single Leg Romanian Deadlift,Lower Body,0.0,0.1,0.0,0.9
+Sumo Deadlift,Lower Body,0.0,0.1,0.0,0.9
+Medicine Ball Chest Pass,Upper Body,0.0,0.1,0.9,0.0
+Medicine Ball Lateral Throws,Upper Body,0.0,1.0,0.0,0.0
