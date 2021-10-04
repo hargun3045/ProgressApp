@@ -4,12 +4,12 @@ channels:
   - defaults
 dependencies:
   - pip=21.2.4=pyhd8ed1ab_0
-  - python=3.7.0=hc182675_1006
+#   - python=3.7.0=hc182675_1006
   - python_abi=3.7=2_cp37m
-  - setuptools=57.4.0=py37h03978a9_0
-  - ucrt=10.0.20348.0=h57928b3_0
-  - vc=14.2=hb210afc_5
-  - vs2015_runtime=14.29.30037=h902a5da_5
+#   - setuptools=57.4.0=py37h03978a9_0
+#   - ucrt=10.0.20348.0=h57928b3_0
+#   - vc=14.2=hb210afc_5
+#   - vs2015_runtime=14.29.30037=h902a5da_5
   - wheel=0.37.0=pyhd8ed1ab_1
   - pip:
     - altair==4.1.0
