@@ -1,2 +1,2 @@
 # ProgressApp
-Today is Wednesday
+Today is Wednesday.
