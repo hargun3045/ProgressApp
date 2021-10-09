@@ -10,14 +10,19 @@ import helper
 import target
 
 def app():
-    s = f"""<style>@import url('http://fonts.cdnfonts.com/css/ea-font');
-    <style>"""
+    # s = f"""<style>@import url('http://fonts.cdnfonts.com/css/ea-font');
+    # <style>"""
+
+    s = f"""    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+    </style>
+    """
     st.markdown(s, unsafe_allow_html=True)
-    st.title('Overview')    
-    # text = '<h1 style = "font-family: \'EA Font v1.5 by Ghettoshark\'; margin-bottom:0; margin-top:0;color: #EC5A53; font-size: 40px;">HINDSIGHT</p>'
-    # st.markdown(text,unsafe_allow_html=True)
-    # text = '<h1 style = "font-family: \'EA Font v1.5 by Ghettoshark\'; margin-bottom:0; margin-top:0,color: #181A18; font-size: 20px;">User Analytics</p>'
-    # st.markdown(text,unsafe_allow_html=True)
+    # st.title('Overview')    
+    text = '<h1 style = "font-family: \'EA Font v1.5 by Ghettoshark\'; margin-bottom:0; margin-top:0;color: #EC5A53; font-size: 40px;">HINDSIGHT</p>'
+    st.markdown(text,unsafe_allow_html=True)
+    text = '<h1 style = "font-family: \'EA Font v1.5 by Ghettoshark\'; margin-bottom:0; margin-top:0,color: #181A18; font-size: 20px;">User Analytics</p>'
+    st.markdown(text,unsafe_allow_html=True)
     # st.title('Hindsight')
     # st.header('Welcome User')
     @st.cache(persist=True, allow_output_mutation=True)
