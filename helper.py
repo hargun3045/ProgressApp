@@ -8,11 +8,11 @@ import plotly.graph_objects as go
 import numpy as np
 import os
 # from google.cloud import storage
-import google.auth
+# import google.auth
 import os
 from glob import glob
 import json
-from google.oauth2 import service_account
+# from google.oauth2 import service_account
 
 muscle =['LLTB', 'Core', 'PDT', 'GHQC']
 # app.py trash
