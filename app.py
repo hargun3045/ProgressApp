@@ -12,6 +12,15 @@ import post_workout
 import plotly as po
 import plotly.express as px
 import plotly.graph_objects as go
+import os
+# from google.cloud import storage
+# import google.auth
+# import trash_code
+
+#credentials, project = trash_code.auth_gcp()
+
+#trash_code.download_blob(credentials, project)
+
 
 st.set_page_config(page_title="Analytics",layout='wide')
 

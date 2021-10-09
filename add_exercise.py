@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from collections import defaultdict
 
+pd.set_option('max_colwidth', 50)
 
 def app():
     st.title('Add New Exercise')
@@ -15,7 +16,7 @@ def app():
             df = pd.read_csv(filename)
         return df
     if 'map' not in st.session_state:
-        st.session_state.map = load_data('MAP.csv')
+        st.session_state.map = load_data('data/MAP.csv')
     exercise_name = st.text_input("Exercise name:")
     body_inp = st.selectbox('Upper Body/Lower Body', ('Upper Body','Lower Body'))
     st.markdown('### Muscle group contribution')
@@ -31,7 +32,7 @@ def app():
     if add:
         st.session_state.map = st.session_state.map.append(exercise_detail, ignore_index = True)
     if confirm:
-        st.session_state.map.to_csv('MAP.csv')
+        st.session_state.map.to_csv('data/MAP.csv')
     with st.expander('Exercise details:'):
         delete_col1, delete_col2 = st.columns(2)
         delete_col1.markdown('Delete Exercise')
