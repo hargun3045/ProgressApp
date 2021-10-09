@@ -1,3 +1,37 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@hargun3045 
+hargun3045
+/
+ProgressApp
+Public
+1
+0
+1
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ProgressApp/environment.yml
+@hargun3045
+hargun3045 env.yml
+…
+Latest commit 669b07d 2 minutes ago
+ History
+ 2 contributors
+@hargun3045@Surojit-KB
+123 lines (123 sloc)  2.71 KB
+   
 name: pc
 channels:
   - defaults
@@ -121,3 +155,16 @@ dependencies:
     - widgetsnbextension==3.5.1
     - zipp==3.6.0
 prefix: /usr/local/anaconda3/envs/pc
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
